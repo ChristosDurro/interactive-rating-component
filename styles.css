@@ -17,6 +17,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -158,9 +159,27 @@ body {
     text-align: center;
 }
 
+.attribution {
+    text-align: center;
+    font-size: 11px;
+    margin: 20px 0;
+}
+
+.attribution>a {
+    color: white;
+}
+
+.attribution>a:hover {
+    color: lightgrey;
+}
+
 @media screen and (min-width: 490px) {
     .card {
         width: 60%;
+    }
+
+    .attribution {
+        font-size: 12px;
     }
 }
 
